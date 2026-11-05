@@ -32,7 +32,14 @@ Plugin para **Claude Code** e **Codex** que transforma uma imagem de referência
 
 **Claude Code: só neste projeto.** Clone o repositório e abra a pasta. O arquivo `.claude/settings.json` já ativa o plugin com escopo de projeto, sem instalar nada globalmente.
 
-**Codex.** Clone o repositório e abra a pasta. A skill fica em `.agents/skills/pixel-art`.
+**Codex: pelo marketplace**
+```bash
+codex plugin marketplace add YuriPereira20/img-to-pixel
+codex plugin add img-to-pixel@pixel-local
+```
+A skill aparece como `img-to-pixel:pixel-art`. No Codex o fluxo inteiro roda nele mesmo, inclusive a geração de imagem. Para remover: `codex plugin remove img-to-pixel@pixel-local`.
+
+**Codex: só neste projeto.** Clone o repositório e abra a pasta. A skill também fica em `.agents/skills/pixel-art`.
 
 ## Uso
 

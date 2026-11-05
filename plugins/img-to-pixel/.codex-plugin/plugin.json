@@ -1,0 +1,20 @@
+{
+  "name": "img-to-pixel",
+  "version": "0.2.0",
+  "description": "Turns a reference image into 64x64 pixel art with approval at each step (description -> 3 generated variations -> pixel retouch -> export HTML/PNG/SVG with and without background).",
+  "author": { "name": "YuriPereira20" },
+  "homepage": "https://github.com/YuriPereira20/img-to-pixel",
+  "repository": "https://github.com/YuriPereira20/img-to-pixel",
+  "license": "MIT",
+  "keywords": ["pixel-art", "image-generation", "sprite", "svg"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "img-to-pixel",
+    "shortDescription": "Reference image to 64x64 pixel art",
+    "longDescription": "Describe a reference image, generate 3 pixel art variations with native image generation, pick one, retouch pixel by pixel and export HTML/PNG/SVG with and without background.",
+    "developerName": "YuriPereira20",
+    "category": "Design",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["Transforma esta imagem em pixel art 64x64"]
+  }
+}

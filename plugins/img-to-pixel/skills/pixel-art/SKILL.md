@@ -5,7 +5,7 @@ description: Turns a reference image into 64x64 pixel art with approval gates (d
 
 # Pixel art 64x64 com aprovação
 
-`$S` = pasta dos scripts: `${CLAUDE_PLUGIN_ROOT}/scripts` (plugin instalado no Claude). Se essa variável aparecer sem expandir, ou se você for o Codex rodando dentro do repositório, use `plugins/img-to-pixel/scripts`.
+`$S` = pasta `scripts/` do plugin, dois níveis acima deste SKILL.md (`<plugin>/skills/pixel-art/SKILL.md` -> `<plugin>/scripts`). No Claude é `${CLAUDE_PLUGIN_ROOT}/scripts`; no Codex, resolva pelo caminho deste arquivo; dentro deste repositório é `plugins/img-to-pixel/scripts`. Use sempre o caminho absoluto.
 Requer Python 3.10+ com `pillow` e `numpy` (`pip install pillow numpy`) e, no Claude, o Codex CLI logado. Saída: `output/<nome>/` (nome curto em kebab-case, derivado do assunto).
 Fale com o usuário em português. **Nunca avance de etapa sem aprovação explícita.**
 
