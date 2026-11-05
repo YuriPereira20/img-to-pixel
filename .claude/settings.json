@@ -1,0 +1,6 @@
+{
+  "extraKnownMarketplaces": {
+    "pixel-local": { "source": { "source": "directory", "path": "." } }
+  },
+  "enabledPlugins": { "img-to-pixel@pixel-local": true }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "img-to-pixel",
+  "version": "0.2.0",
+  "description": "Imagem de referência -> descrição -> pixel art 64x64 (via Codex) -> HTML/PNG/SVG com e sem fundo, com aprovação em cada etapa.",
+  "author": { "name": "YuriPereira20", "url": "https://github.com/YuriPereira20" },
+  "repository": "https://github.com/YuriPereira20/img-to-pixel",
+  "license": "MIT",
+  "keywords": ["pixel-art", "image-generation", "codex", "sprite", "svg"]
+}

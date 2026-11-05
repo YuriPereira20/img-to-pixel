@@ -1,0 +1,8 @@
+{
+  "name": "pixel-local",
+  "owner": { "name": "YuriPereira20" },
+  "metadata": { "description": "Plugin img-to-pixel: pixel art 64x64 a partir de uma imagem de referência, com aprovação em cada etapa." },
+  "plugins": [
+    { "name": "img-to-pixel", "source": "./plugins/img-to-pixel", "description": "Pixel art 64x64 com aprovação" }
+  ]
+}
